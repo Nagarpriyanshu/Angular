@@ -1,0 +1,9 @@
+<p>interest works!</p>
+<div>
+    <input type="number" required [(ngModel)]="principal">
+    <input type="number" required [(ngModel)]="rate">
+    <input type="number" required [(ngModel)]="time">
+
+    <button (click)="simpleInterest()">Calculate</button>
+    <div>{{si}}</div>
+</div>
